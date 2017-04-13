@@ -46,3 +46,11 @@ If you use Apache, a vhost as follow should do the trick:
 
 It would be nice to display nodes data on click or have a global panel with network statistics. If you are motivated, all
 the data needed should be already there, ready to be used! Feel free to fork and enhance :-)
+
+A few ideas:
+
+- Use Redis or some key/value store to cache nodes data
+- Retrieve marker clusters on map zoom events to improve display perfs
+- Add a panel with global network stats
+- Display node informations on click
+- ...
