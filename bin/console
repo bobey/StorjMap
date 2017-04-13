@@ -1,0 +1,15 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__.'/../vendor/autoload.php';
+
+set_time_limit(0);
+
+use Symfony\Component\Console\Input\ArgvInput;
+
+$input = new ArgvInput();
+
+$app = require __DIR__.'/../src/app.php';
+require __DIR__.'/../config/config.php';
+$console = require __DIR__.'/../src/console.php';
+$console->run();
