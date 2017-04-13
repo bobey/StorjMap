@@ -2,6 +2,12 @@
 
 A 2 hours project using Storj.io bridge API to display online nodes on a Google Map.
 
+## Online demo
+
+http://storjmap.overnetcity.com
+
+<img title="Storj.io network online nodes displayed on Google Maps" src="assets/StorjMap.png">
+
 ## How does it work?
 
 The `storjmap:cache-contacts` gets all Storj nodes from Storj.io bridge API and then ask for IP address geolocation.
